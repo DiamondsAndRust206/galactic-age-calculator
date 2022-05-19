@@ -4,7 +4,8 @@ export default class PlanetaryAge {
     this.expectancy = expectancy;
     this.days = 0;
   }
-  method() {
-  
+
+  ageToEarthDays() {
+    
   }
 }

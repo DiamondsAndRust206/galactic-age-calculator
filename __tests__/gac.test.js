@@ -18,10 +18,11 @@ describe('PlanetaryAge', () => {
 
 
 describe('ageToEarthDays', () => {
-  // let age;
+  let age;
 
-  // test('should return earth age in years into the amount of days')
-  //   age = new PlanetaryAge(50, 80);
-  //   expect()
+  test('should return earth age in years into the amount of days', () => {
+    age = new PlanetaryAge(50, 80);
+    expect(age.days).toEqual(18250);
+  }); 
 });
 
